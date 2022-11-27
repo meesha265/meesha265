@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+#s1, #s2, #s3, #s4, #s5, #s6, footer {
+    margin-top: 7px;
+    padding: 0%;
+    
+}
+
+div#s1 {
+  height: 950px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+  rgba(0, 0, 0, 0.5)), url("https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/f4344d2d-3209-4741-b48e-35587bdeba9a/NG-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+  background-repeat: no-repeat;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 12px 14px; 
+  border: none;
+  font-size: 20px;
+}
+
+.s1but {
+    margin-right: 24%;
+    padding: 18px;
+    margin-top: 9px;
+    float: right;    
+}
+
+.libut {
+    float: right;
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+}
+
+#s1 a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+h1, h3, h5, h2 {
+  color: white
+}
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+.s1 {
+    text-align: center;
+    margin-top: 20px;
+ 
+}
+
+.divider {
+    margin-top: 180px;
+
+}
+
+#s1 input[type = text] {
+    padding-right: 360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    margin-left: 270px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 2px;
+    font-size: 17px;
+    text-align: left;
+}
+
+.s2 {
+    text-align: left; 
+   }
+
+   h1.s2, h1.s3, h1.s5 {
+    padding-top: 12%;
+   }
+  h1.s3 {
+    padding-top: 15%;
+   }
+
+    h1.s5 {
+    padding-top: 15%;
+   }
+
+   .s5, .s3 {
+    padding-left: 10%;
+    padding-right: 15%;
+   }
+
+   .s2 {
+    padding-left: 5%;
+    padding-right: 5%;
+   }
+
+   #s4 {
+    padding: 5%;
+    padding-right: 40%;
+   }
+
+
+
+
+.s2img {
+    float: right;
+}
+
+#s2, #s3, #s5 {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    text-align: left;    
+}
+
+#s2 {
+    margin-top: 380px;
+    margin-left: 0px;
+}
+
+#s4, #s6, footer {
+    background-color: black;
+}
+.imgs2 {
+    padding-right: 15%;
+}
+
+#s6 {
+   padding-top: 20px;
+   text-align: center;
+   align-items: center;
+   justify-items: center;
+   padding-bottom: 50px;
+  }
+
+.faq-question {
+    background-color: grey;
+    color: white;
+    width: 60%;
+    margin-top: 20px;
+    padding: 15px;
+    text-align: justify;
+    font-size: 30px;
+}
+
+#s6 input[type = text] {
+    padding-right: 360px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 35px;
+    margin-left: 270px;
+    border: none;
+    margin-top: 15px;
+    margin-right: 2px;
+    font-size: 17px;
+    text-align: left;
+}
+
+footer {
+    margin-top: 15px;
+    display: flex;
+}
+
+.s6but {
+    margin-right: 24%;
+    padding: 18px;
+    margin-top: 15px;
+    float: right; 
+
+}
+
+
+
+#s6 a {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+  }
+
+.collapse {
+    color: white;
+    font-size: 30px;
+    width: 60%;
+    background-color: grey;
+ 
+}
+
+footer div {
+    margin-left: 12%;
+    margin-top: 20px;
+
+}
+
+br {
+    size: 40px;
+}
